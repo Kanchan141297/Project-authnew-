@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+    <h1> Welcome to the Blogging !!!!</h1>
+
+    <img src="{% static 'pages/home2.jpg'%}" class="rounded mt-2" width="80%">
+
+            <div class="flex-grow-1">
+                <h3><u>Lets Share your views</u></h3>
+                <a href="{% url 'show' %}" class="fs-2 bold mt-3">explore..!</a>
+            </div>
+
+
+
+
+    </div>
+{% endblock %}
