@@ -7,8 +7,7 @@ __pycache__/
 # C extensions
 *.so
 
-demo.notes
-hello.py
+*.xlsx
 
 # Distribution / packaging
 .Python
